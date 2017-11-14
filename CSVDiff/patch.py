@@ -8,15 +8,22 @@
 The the patch format.
 """
 
+from __future__ import unicode_literals
 import copy
 import itertools
 import json
 import sys
-
+import en_core_web_sm
 import jsonschema
+import re
+import plac
+import numpy
+
 
 from . import error
 from . import records
+import spacy
+from spacy.language import Language
 
 SCHEMA = {
     '$schema': 'http://json-schema.org/draft-04/schema#',
@@ -74,8 +81,7 @@ SCHEMA = {
     },
     'required': ['_index', 'added', 'changed', 'removed'],
 }
-
-
+nlp = en_core_web_sm.load()
 def is_empty(diff):
     "Are there any actual differences encoded in the delta?"
     return not any([diff['added'], diff['changed'], diff['removed']])
@@ -226,11 +232,34 @@ def create_indexed(from_indexed, to_indexed, index_columns):
 def _compare_keys(from_recs, to_recs):
     from_keys = set(from_recs)
     to_keys = set(to_recs)
+    removed = Difference(from_keys, to_keys)
     removed = from_keys.difference(to_keys)
+
     shared = from_keys.intersection(to_keys)
     added = to_keys.difference(from_keys)
     return removed, added, shared
 
+def Difference(set1,set2):
+    return set(
+        k for k in set1
+            if similarity(set2,k[0])
+    )
+def similarity(set,eachword):
+     similarity=[]
+     if re.match(r'Filler(.*?)',eachword.replace('_',' ')):
+         return 0
+     for word in list(set):
+         if re.match(r'FILLER(.*?)',word[0]):
+            similarity.append(0)
+            continue
+         doc1=nlp(word[0].decode('utf8'))
+         doc2=nlp(eachword.decode('utf8'))
+         similarity.append((doc2.similarity(doc1),word))
+
+     print eachword,max(similarity)
+     # if max(similarity)>0.5:
+     #    return True
+     # return False
 
 def _compare_rows(from_recs, to_recs, keys):
     "Return the set of keys which have changed."

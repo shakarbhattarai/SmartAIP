@@ -5,7 +5,7 @@
 #  csvdiff
 #
 
-from __future__ import absolute_import, print_function, division
+from __future__ import absolute_import, print_function, division,unicode_literals
 import json
 import sys
 
@@ -249,13 +249,16 @@ def main():
 
     _diff_files_to_stream('CSVdiff/b.csv', 'CSVdiff/a.csv', index_columns=['FieldName'], ostream=open('output.json', 'w'),
                           ignored_columns=['SubLayout', 'Subtype'])
-    data=[]
+
+    # _diff_and_summarize('CSVdiff/b.csv', 'CSVdiff/a.csv',  index_columns=['FieldName'],
+    #                     ignored_columns=['SubLayout', 'Subtype'])
+
     added=[]
     removed=[]
     with open('output.json') as data_file:
         data = json.load(data_file)
 
-    print (data)
+
 
 
     for each_data in data['added']:
@@ -263,8 +266,5 @@ def main():
 
     for each_data in data['removed']:
         removed.append(each_data['FieldName'])
-    print (sorted(added))
-    print (sorted(removed))
-
 
 main()

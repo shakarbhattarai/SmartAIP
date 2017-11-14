@@ -5,242 +5,365 @@
   "added": [
     {
       "DataType": "DATE", 
-      "FieldName": "Date_Paid_Check_Date", 
+      "FieldName": "DOB", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "DATE", 
-      "FieldName": "Date_of_First_Service", 
+      "FieldName": "FROMDATE", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "DATE", 
-      "FieldName": "Date_of_Last_Service", 
+      "FieldName": "PAIDDATE", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "DATE", 
-      "FieldName": "LastUpdateDate", 
+      "FieldName": "RCVDATE", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "DATE", 
+      "FieldName": "SERVICEDATE", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "DATE", 
+      "FieldName": "TODATE", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "NUMBER", 
-      "FieldName": "Allowed_Amount", 
+      "FieldName": "ALLOWEDAMT", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "NUMBER", 
-      "FieldName": "Capitation_Type_Code", 
+      "FieldName": "BILLEDAMT", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "NUMBER", 
-      "FieldName": "Coinsurance", 
+      "FieldName": "COBAMT", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "NUMBER", 
-      "FieldName": "Copay_Percentage", 
+      "FieldName": "COINSAMT", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "NUMBER", 
-      "FieldName": "Copayment", 
+      "FieldName": "COPAYAMT", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "NUMBER", 
-      "FieldName": "Deductible", 
+      "FieldName": "DEDUCTAMT", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "NUMBER", 
-      "FieldName": "Discount", 
+      "FieldName": "ENRPAIDAMT", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "NUMBER", 
-      "FieldName": "Net_Payment", 
+      "FieldName": "IPDAYS", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "NUMBER", 
-      "FieldName": "Patient_Payable_Amount", 
+      "FieldName": "PAIDAMT", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "NUMBER", 
-      "FieldName": "Submitted_Charge", 
+      "FieldName": "RECORD_COUNT", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "NUMBER", 
-      "FieldName": "Third_Party_Amount", 
+      "FieldName": "RECORD_SUMMATION", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "NUMBER", 
-      "FieldName": "Units_of_Service", 
+      "FieldName": "SERVICEUNITS", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Capitated_Service_Indicator", 
+      "FieldName": "ADJCODE", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Claim_Line_Status", 
+      "FieldName": "CLAIMLINENUMBER", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Claim_Status", 
+      "FieldName": "CLAIMSTATUS", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Denial_Code", 
+      "FieldName": "CLMNUM", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Denial_Code_Description", 
+      "FieldName": "CLMTYPE", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Diagnosis_Code_Principal", 
+      "FieldName": "COVEREDINDIV", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "End_Process_Date", 
+      "FieldName": "DIAGCDQUALIF", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Family_ID_SSN", 
+      "FieldName": "DIAGCODE", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Filler", 
+      "FieldName": "DISCHSTATUS", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "GroupNumber", 
+      "FieldName": "DRGCODE", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Last_Character", 
+      "FieldName": "DRG_VERSION", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Line_Number", 
+      "FieldName": "EAMEEID", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Network_Paid_Indicator", 
+      "FieldName": "EAOS_ID", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Network_Provider_Indicator", 
+      "FieldName": "EA_ITF_RUN_ID", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Ordering_Provider_ID", 
+      "FieldName": "EIGHTHDIAGCODE", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "PCP_Responsibility_Indicator", 
+      "FieldName": "FIFTHDIAGCODE", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Patient_Gender", 
+      "FieldName": "FILLER", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Patient_Relationship", 
+      "FieldName": "FIRSTDIAGCODE", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Place_of_Service", 
+      "FieldName": "FOURTHDIAGCODE", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Proceduce_Type", 
+      "FieldName": "GENDER", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Procedure_Code", 
+      "FieldName": "ICD9PROCCODE1", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Procedure_Code_Modifier", 
+      "FieldName": "ICD9PROCCODE2", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Provider_ID", 
+      "FieldName": "ICD9PROCCODE3", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Provider_Type_Code_Claim", 
+      "FieldName": "ICD9PROCCODE4", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Provider_Zip_Code", 
+      "FieldName": "ICD9PROCCODE5", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Record_Count", 
+      "FieldName": "ICD9PROCCODE6", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Start_Process_Date", 
+      "FieldName": "INNWK", 
       "\ufeffID": "154"
     }, 
     {
       "DataType": "VARCHAR2", 
-      "FieldName": "Total_Net_Payment", 
+      "FieldName": "MEMFIRSTNAME", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "MEMID", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "MEMLASTNAME", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "MODIFIERCODE", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "NINTHDIAGCODE", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "NWKID", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "NWKNAME", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "POSCODE", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "PROCCODE", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "PROVID", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "PROVNAME", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "PROVNPI", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "PROVZIPCODE", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "RECORD_ID", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "RELFLAG", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "REVCODE", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "SECONDDIAGCODE", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "SEVENTHDIAGCODE", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "SIXTHDIAGCODE", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "SPECCODE", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "TENTHDIAGCODE", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "THIRDDIAGCODE", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "TYPEOFBILL", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "UMI_ID", 
       "\ufeffID": "154"
     }
   ], 
-  "changed": [
-    {
-      "fields": {
-        "DataType": {
-          "from": "date", 
-          "to": "DATE"
-        }
-      }, 
-      "key": [
-        "Patient_Date_of_Birth"
-      ]
-    }
-  ], 
+  "changed": [], 
   "removed": [
     {
       "DataType": "VARCHAR2", 
       "FieldName": "Charge_Status", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "Claim_ID", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "Claim_Type", 
       "\ufeffID": "154"
     }, 
     {
@@ -360,7 +483,17 @@
     }, 
     {
       "DataType": "VARCHAR2", 
+      "FieldName": "Provider_Name", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
       "FieldName": "Provider_Tax_ID", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "VARCHAR2", 
+      "FieldName": "Record_Type", 
       "\ufeffID": "154"
     }, 
     {
@@ -396,6 +529,11 @@
     {
       "DataType": "date", 
       "FieldName": "Employee_Date_of_Birth", 
+      "\ufeffID": "154"
+    }, 
+    {
+      "DataType": "date", 
+      "FieldName": "Patient_Date_of_Birth", 
       "\ufeffID": "154"
     }, 
     {
