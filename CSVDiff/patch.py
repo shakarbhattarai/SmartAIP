@@ -13,18 +13,15 @@ import copy
 import itertools
 import json
 import sys
-import en_core_web_sm
+import numpy as np
 import jsonschema
 import re
-import plac
-import numpy
-
-
+import wordninja
 from . import error
 from . import records
+import textacy
 import spacy
-from spacy.language import Language
-
+import en_core_web_sm
 SCHEMA = {
     '$schema': 'http://json-schema.org/draft-04/schema#',
     'title': 'csvdiff',
@@ -246,20 +243,26 @@ def Difference(set1,set2):
     )
 def similarity(set,eachword):
      similarity=[]
-     if re.match(r'Filler(.*?)',eachword.replace('_',' ')):
+     if re.match(r'Filler(.*?)', eachword):
          return 0
      for word in list(set):
-         if re.match(r'FILLER(.*?)',word[0]):
+         if re.match(r'FILLER(.*?)', word[0]) or re.match(r'RECORD_(.*?)', word[0]):
             similarity.append(0)
             continue
-         doc1=nlp(word[0].decode('utf8'))
-         doc2=nlp(eachword.decode('utf8'))
-         similarity.append((doc2.similarity(doc1),word))
+
+         doc1 = nlp(' '.join(wordninja.split(word[0].lower().decode('utf8'))))
+         doc1 = wordninja.split(word[0].lower().decode('utf8'))
+
+         doc2 = nlp(' '.join(wordninja.split(eachword.lower().decode('utf8'))))
+         doc2 = wordninja.split(eachword.lower().decode('utf8'))
+
+         similarity.append((get_similarity(doc1, doc2), word))
 
      print eachword,max(similarity)
      # if max(similarity)>0.5:
      #    return True
      # return False
+
 
 def _compare_rows(from_recs, to_recs, keys):
     "Return the set of keys which have changed."
@@ -268,6 +271,13 @@ def _compare_rows(from_recs, to_recs, keys):
         if sorted(from_recs[k].items()) != sorted(to_recs[k].items())
     )
 
+
+def get_similarity(doc1, doc2):
+    temp = textacy.similarity.jaccard(doc1, doc2)
+    if (temp > 0.8):
+        return temp
+
+    return textacy.similarity.word2vec(nlp(' '.join(doc1)), nlp(' '.join(doc2)))
 
 def _assemble(removed, added, changed, from_recs, to_recs, index_columns):
     diff = {}

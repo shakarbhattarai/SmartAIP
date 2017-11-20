@@ -246,8 +246,8 @@ def csvpatch_cmd(input_csv, input=None, output=None, strict=True):
 
 
 def main():
-
-    _diff_files_to_stream('CSVdiff/b.csv', 'CSVdiff/a.csv', index_columns=['FieldName'], ostream=open('output.json', 'w'),
+    _diff_files_to_stream('CSVdiff/a.csv', 'CSVdiff/b.csv', index_columns=['FieldName'],
+                          ostream=open('output.json', 'w'),
                           ignored_columns=['SubLayout', 'Subtype'])
 
     # _diff_and_summarize('CSVdiff/b.csv', 'CSVdiff/a.csv',  index_columns=['FieldName'],
