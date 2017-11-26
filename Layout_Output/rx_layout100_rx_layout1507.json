@@ -1,0 +1,485 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "APMFinancialCutoffDate",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "AdminFee",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "AmountPaid",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "BasisOfCostDetermination",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "BasisOfDaysSupplyDetermination",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "BatchNumber",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "CardholderMemberId",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "CompoundCode",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "CopayAmount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "CustomerLocation",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "DateFilled",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "DatePrescriptionWritten",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "DateofBirth",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "DaysSupply",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "DiagnosisCode",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "DispenseAsWritten",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "DispensingFeeSubmitted",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "DrugDescription",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "DrugType",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "EligibilityClarificationCode",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "FormularyIndicator",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "GroupNumber",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "IngredientCost",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "LevelOfService",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "MetricQuantity",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "NDCNumber",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "NewRefillCode",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "NumberOfRefillsAuthorized",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "PatientFirstName",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "PatientLastName",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "PersonCode",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "PharmacyNABPNumber",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "PharmacyStatusCode",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "PrescriberId",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "PrescriptionDenialClarifctn",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "PrescriptionNumber",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "PrescriptionOriginCode",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "PrimaryPrescriber",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "PriorAuthorization",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "ProcessorIdentifier",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "RecordIdentifier",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "RelationshipCode",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "SalesTax",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "SexCode",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    },
+    {
+      "COLUMNNAME": "UnitDoseIndicator",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1507"
+    }
+  ],
+  "changed": [],
+  "removed": [
+    {
+      "COLUMNNAME": "BCMBRNBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "BCTOS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "CAPIND",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "CLAIMNBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "CLMCLS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "CLMSYSID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "COPAYAMT",
+      "DATATYPE": "Number",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "CURSUBID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "DAW",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "DAYSUPLY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "DEACLASSS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "DEDUCT",
+      "DATATYPE": "Number",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "DRUGIND",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "EBYA",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "EMPREL",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "FIRSTNAM",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "FORMULRY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "GENRCID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "HCFACOCD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "HEADCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "LASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "METRCQTY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "NDC",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "NDCDES",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "NDCSTR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "NETPAY",
+      "DATATYPE": "Number",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "NTWKPROD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "ORDNPI",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "ORDRPHYS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PAID",
+      "DATATYPE": "Number",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PATDOB",
+      "DATATYPE": "Date",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PCPNBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PCPNPI",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PCPTNO",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PDDATE",
+      "DATATYPE": "Date",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PHARM_NPI",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "POS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PROCCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PROVID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PRVTYPECD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "RATESTRU",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "REFCIRC",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "REFILL",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "RXORIGCD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "SERVCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "SEXCD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "SUBMITCH",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "SVCDT",
+      "DATATYPE": "Date",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "THRPCLS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "THRPGRP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    }
+  ]
+}

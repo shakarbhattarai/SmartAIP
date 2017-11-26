@@ -1,0 +1,300 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "ADMIT_DATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "BILL_TYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "CLAIM_NO",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "CLAIM_TYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "COINSR_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "COPAY_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "DEDUCT_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "DISCH_DATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "DISCH_STAT",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "DOS_FROM",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "DOS_TO",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "DX_1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "DX_2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "DX_3",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "DX_4",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "DX_5",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "GROUP_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "GROUP_NAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "ICD",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "LINE_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "MEMBER_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "MEM_DOB",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "MEM_GENDER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "MEM_NAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "MEM_TYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "MEM_ZIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "NETWORK",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "NET_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "PAID_DATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "PAYER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "POS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "PROCCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "PROV_LICNO",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "PROV_NAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "PROV_ZIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "QUANTITY",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "217"
+    },
+    {
+      "COLUMNNAME": "REVCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "217"
+    }
+  ],
+  "changed": [],
+  "removed": [
+    {
+      "COLUMNNAME": "BIRTHDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTARTDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTOPDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGETYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE3",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE4",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE5",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE6",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEENUMBER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "FIRSTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "LASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "PRODUCTCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "RELATIONSHIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "SEX",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATUSCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STREETADDRESS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "ZIPCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    }
+  ]
+}

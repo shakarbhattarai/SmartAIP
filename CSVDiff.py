@@ -5,14 +5,28 @@
 #  csvdiff
 #
 
-from __future__ import absolute_import, print_function, division
+
+
+
+from __future__ import absolute_import, print_function, division,unicode_literals
 import json
 import sys
-
+from operator import itemgetter
+import time
 import click
+import os
+from os import listdir
 
+from os.path import isfile, join
 from CSVDiff import patch, records, error
+from Web.matchLayout import matchLayout
 
+dir='CSVdiff/finalLayouts/RX_LAYOUTS/'
+singleFile1="rx_layout20.csv"
+singleFile2="rx_layout812.csv"
+
+from_records_ct=0
+to_records_ct=0
 if sys.version_info.major == 2:
     import StringIO as io
 else:
@@ -23,7 +37,6 @@ EXIT_SAME = 0
 EXIT_DIFFERENT = 1
 EXIT_ERROR = 2
 
-
 def diff_files(from_file, to_file, index_columns, sep=',', ignored_columns=None):
     """
     Diff two CSV files, returning the patch which transforms one into the
@@ -33,6 +46,10 @@ def diff_files(from_file, to_file, index_columns, sep=',', ignored_columns=None)
         with open(to_file) as to_stream:
             from_records = records.load(from_stream, sep=sep)
             to_records = records.load(to_stream, sep=sep)
+            # a=list(from_records)
+            # print(a)
+            # if abs(from_records.reader.line_num - to_records.reader.line_num) > 20:
+            #     return False
             return patch.create(from_records, to_records, index_columns,
                                 ignore_columns=ignored_columns)
 
@@ -163,7 +180,8 @@ def _diff_files_to_stream(from_csv, to_csv, index_columns, ostream,
                           compact=False, sep=',', ignored_columns=None,
                           significance=None):
     diff = diff_files(from_csv, to_csv, index_columns, sep=sep, ignored_columns=ignored_columns)
-
+    if diff == False:
+        return 0
     if significance is not None:
         diff = patch.filter_significance(diff, significance)
 
@@ -245,26 +263,168 @@ def csvpatch_cmd(input_csv, input=None, output=None, strict=True):
         tocsv_stream.close()
 
 
+def getAccruacy(from_records_ct, to_records_ct, weightList):
+
+    finalWeight = 0.3*sum(weightList) / len(weightList)
+    numberOne = 0.4*weightList.count(1.0)/len(weightList)
+    a=from_records_ct/to_records_ct if from_records_ct/to_records_ct <1 else to_records_ct/from_records_ct
+    third=a*0.3
+
+    return finalWeight+numberOne+third
+
+def runAll(tocheck):
+    onlyfiles = [f for f in listdir('CSVdiff/layouts_with_allheader/small')]
+    maxsimilarity=[]
+    for file in onlyfiles:
+        filename=file.replace('.csv','.json')
+        val = _diff_files_to_stream('CSVdiff/layouts_with_allheader/small/'+tocheck,
+                                    'CSVdiff/layouts_with_allheader/small/' + file, index_columns=['COLUMNNAME'],
+                                    ostream=open('Layout_Output/'+tocheck.replace('.csv','_')+file.replace('.csv','.json'), 'w'),
+                                    ignored_columns=['SUBLAYOUTID', 'COLUMNID', 'DATETYPEDETIAL', 'FIELDLENGTH', 'SN',
+                                                     'STARTPOS', 'ENDPOS', 'UPDATED_BY', 'FIELDLINENUMBER',
+                                                     'FIELDDELIMITER', 'FIELDPOSITION', 'CATEGORY', 'BUSINESSNAME',
+                                                     'SEMANTICKEY'])
+
+        if val == 0:
+            with open("log" + ".txt", "a") as myfile:
+                myfile.write(tocheck + " " + file + " " + "0\n")
+            #print(tocheck,file, 0)
+        else:
+            from_records = list(records.load('CSVdiff/layouts_with_allheader/small/'+tocheck, ','))
+            to_records = list(records.load('CSVdiff/layouts_with_allheader/small/' + file, ','))
+            value=getAccruacy(len(from_records), len(to_records), patch.weightList)
+            maxsimilarity.append((file,tocheck,value))
+            #print(tocheck,file,value)
+            with open("log" + ".txt", "a") as myfile:
+                myfile.write(tocheck + " " + file + " " + str(value) + "\n")
+            added = []
+            removed = []
+            # '+file.split('.csv
+            # ')[0]+'
+
+            with open('Layout_Output/'+tocheck.replace('.csv','_')+file.replace('.csv','.json')) as data_file:
+                data = json.load(data_file)
+            for each_data in data['added']:
+                added.append(each_data['COLUMNNAME'])
+
+            for each_data in data['removed']:
+                removed.append(each_data['COLUMNNAME'])
+
+
+        patch.weightList = []
+
+
+    showSimilarity(maxsimilarity)
+
+def showSimilarity(maxSimilarity):
+    calculated= (sorted(maxSimilarity,key=itemgetter(2),reverse=True)[:5])
+    json_value={
+        "inputFileName":[x[1] for x in calculated],
+        "filename":[x[0] for x in calculated],
+        "similarity":[x[2] for x in calculated]
+    }
+    with open("top5Output"+".txt", "a") as myfile:
+        myfile.write(json.dumps(json_value)+"\n")
+
+def runSingle():
+    #onlyfiles = [f for f in listdir('CSVdiff/layouts_data/RX_LAYOUTS')]
+    similarity = ""
+    val = _diff_files_to_stream(dir+singleFile1,
+                                dir+singleFile2, index_columns=['COLUMNNAME'],
+                                ostream=open('output.json', 'w'),
+                                ignored_columns=['SUBLAYOUTID', 'COLUMNID','DATETYPEDETIAL','FIELDLENGTH','SN','STARTPOS','ENDPOS','UPDATED_BY','FIELDLINENUMBER','FIELDDELIMITER','FIELDPOSITION','CATEGORY','BUSINESSNAME','SEMANTICKEY'])
+
+    if val  != 0:
+        from_records = list(records.load(dir+singleFile1, ','))
+        to_records = list(records.load(dir + singleFile2, ','))
+        similarity = getAccruacy(len(from_records), len(to_records), patch.weightList)
+        print(singleFile1, similarity)
+        added = []
+        removed = []
+        with open('output.json') as data_file:
+            data = json.load(data_file)
+        for each_data in data['added']:
+            added.append(each_data['COLUMNNAME'])
+        for each_data in data['removed']:
+            removed.append(each_data['COLUMNNAME'])
+    else:
+        print("Difference in length of record is large")
+    return similarity
+
+def runSingleInAll():
+    onlyfiles = [f for f in listdir(dir)]
+    maxsimilarity = []
+    for file in onlyfiles:
+        filename = file.replace('.csv', '.json')
+        val = _diff_files_to_stream(dir + singleFile1,
+                                    dir + file, index_columns=['COLUMNNAME'],
+                                    ostream=open(
+                                        'Layout_Output/' + singleFile1.replace('.csv', '_') + file.replace('.csv', '.json'),
+                                        'w'),
+                                    ignored_columns=['SUBLAYOUTID', 'COLUMNID', 'DATETYPEDETIAL', 'FIELDLENGTH', 'SN',
+                                                     'STARTPOS', 'ENDPOS', 'UPDATED_BY', 'FIELDLINENUMBER',
+                                                     'FIELDDELIMITER', 'FIELDPOSITION', 'CATEGORY', 'BUSINESSNAME',
+                                                     'SEMANTICKEY'])
+
+        if val == 0:
+            # with open("log" + ".txt", "a") as myfile:
+            #     myfile.write(singleFile1 + " " + file + " " + "0\n")
+             print(singleFile1,file, 0)
+        else:
+            from_records = list(records.load(dir + singleFile1, ','))
+            to_records = list(records.load(dir + file, ','))
+            value = getAccruacy(len(from_records), len(to_records), patch.weightList)
+            maxsimilarity.append((file, singleFile1, value))
+            print(singleFile1,file,value)
+            # with open("log" + ".txt", "a") as myfile:
+            #     myfile.write(singleFile1 + " " + file + " " + str(value) + "\n")
+            added = []
+            removed = []
+            # '+file.split('.csv
+            # ')[0]+'
+
+            with open('Layout_Output/' + singleFile1.replace('.csv', '_') + file.replace('.csv', '.json')) as data_file:
+                data = json.load(data_file)
+            for each_data in data['added']:
+                added.append(each_data['COLUMNNAME'])
+
+            for each_data in data['removed']:
+                removed.append(each_data['COLUMNNAME'])
+
+        patch.weightList = []
+
+    showSimilarity(maxsimilarity)
+
 def main():
 
-    _diff_files_to_stream('CSVdiff/b.csv', 'CSVdiff/a.csv', index_columns=['FieldName'], ostream=open('output.json', 'w'),
-                          ignored_columns=['SubLayout', 'Subtype'])
-    data=[]
-    added=[]
-    removed=[]
-    with open('output.json') as data_file:
-        data = json.load(data_file)
+    console_input=input("Enter 1 for comparing 2 layouts.\nEnter 2 for compaing Single layout with other.\nEnter 3 for comparing all layouts with each other\n")
+    #console_input = '1'
+    if console_input == '1':
+        similarity = runSingle()
+        matchLayout(similarity)
+    elif console_input == '3':
+        with open("log" + ".txt", "a") as myfile:
+            myfile.write("#############NEW RUN STARTED#############\n")
+        onlyfiles = [f for f in listdir(dir)]
+        for file in onlyfiles:
+            runAll(file)
+    elif console_input == '2':
+        runSingleInAll()
 
-    print (data)
+    # _diff_and_summarize('CSVdiff/b.csv', 'CSVdiff/a.csv',  index_columns=['FieldName'],
+    #                     ignored_columns=['SubLayout', 'Subtype'])
 
-
-    for each_data in data['added']:
-        added.append(each_data['FieldName'])
-
-    for each_data in data['removed']:
-        removed.append(each_data['FieldName'])
-    print (sorted(added))
-    print (sorted(removed))
+    # added=[]
+    # removed=[]
+    # with open('output.json') as data_file:
+    #     data = json.load(data_file)
+    #
+    # for each_data in data['added']:
+    #     added.append(each_data['COLUMNNAME'])
+    #
+    # for each_data in data['removed']:
+    #     removed.append(each_data['COLUMNNAME'])
 
 
 main()
+

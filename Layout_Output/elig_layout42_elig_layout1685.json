@@ -1,0 +1,422 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "BIRTHDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "BLKOFBUSID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "BLKOFBUSNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "CLIENTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "CLIENT_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "DENTALAPPLYCOB",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "DENTALBENEFITPLAN",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "DENTALCOVERAGELEVEL",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "DENTALCURRENTDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "DENTALTERMDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "DEPSEQUENCENUMBER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEEID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "LOCATIONID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "LOCATIONNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "MEDICALAPPLYCOB",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "MEDICALBENEFITPLAN",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "MEDICALCOVERAGELEVEL",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "MEDICALCURRENTDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "MEDICALTERMDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "MEMBERADDR1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "MEMBERADDR2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "MEMBERCERT",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "MEMBERCITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "MEMBERFIRST",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "MEMBERGENDER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "MEMBERLAST",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "MEMBERSSN",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "MEMBERSTATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "MEMBERZIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "PRESCRIPTIONAPPLYCOB",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "PRESCRIPTIONBENEFITPLAN",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "PRESCRIPTIONCOVERAGELEVEL",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "PRESCRIPTIONCURRENTDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "PRESCRIPTIONTERMDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "RELATIONSHIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "RELDESCRIPTION",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "RESIDENCEEFFECTIVEDT",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "STDAPPLYCOB",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "STDBENEFITPLAN",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "STDCOVERAGELEVEL",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "STDSTATUS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "STDTIER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "VISIONAPPLYCOB",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "VISIONBENEFITPLAN",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "VISIONCOVERAGELEVEL",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "VISIONCURRENTDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "VISIONTERMDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "cobflag",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "patientid",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    },
+    {
+      "COLUMNNAME": "uniquembrid",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1685"
+    }
+  ],
+  "changed": [
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "42",
+          "to": "1685"
+        }
+      },
+      "key": [
+        "STATUS"
+      ]
+    }
+  ],
+  "removed": [
+    {
+      "COLUMNNAME": "ADDR1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "ADDR2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "CITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "CMSTATUS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "COVTYPEDESC",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "COVTYPEID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "DATABEGINDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "DATAENDDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "DOB",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "EFFDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEECOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "ENRID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "GENDER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "HOMEPHONE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "LOCATIONCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMBERCOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMFIRSTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMLASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PARTTIMEFULLTIMEINDICATOR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PCPID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PCPNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PLANNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PLANTYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "RECORDCOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "RELFLAG",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "STATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "TERMDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "WORKPHONE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "ZIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "DDATEOFBIRTH",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "DDATETIME",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "MBR_FIRST_NAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "MBR_GENDER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "MBR_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "MBR_LAST_NAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "MD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "REV_CLAIM_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "SCHARGECODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "SCOMPONENTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "SLOCATION",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "SPATIENTNUMBER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "SVC_DIAG_1_CODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "SVC_DIAG_2_CODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "SVC_DIAG_3_CODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "SVC_DIAG_4_CODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4120"
+    },
+    {
+      "COLUMNNAME": "TEXTBOX22",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4120"
+    }
+  ],
+  "changed": [],
+  "removed": [
+    {
+      "COLUMNNAME": "BIRTHDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTARTDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTOPDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGETYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE3",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE4",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE5",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE6",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEENUMBER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "FIRSTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "LASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "PRODUCTCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "RELATIONSHIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "SEX",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATUSCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STREETADDRESS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "ZIPCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "AllowedAmount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "BenefitPlan",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "BilledAmount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "COBAmount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "ClaimLine",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "ClaimNumber",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "CoinsuranceAmount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "CopayAmount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "DeductibleAmount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "DiscountAmount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "EligibilityID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "GroupID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "ICD1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "ICD2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "ICD3",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "ICD4",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "MemberResponsibility",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "NetworkStatus",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "NotCoveredAmount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "PaidAmount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "PaidDate",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "PayerCode",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "PlaceOfService",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "ProcedureCode",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "ProductID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "ProviderID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "ReasonCode",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "ReceiveDate",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "ServiceFromDate",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "ServiceToDate",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "SpecialtyCode",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "TotalAdjustments",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "Units",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "793"
+    },
+    {
+      "COLUMNNAME": "WithholdAmount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "793"
+    }
+  ],
+  "changed": [],
+  "removed": [
+    {
+      "COLUMNNAME": "BIRTHDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTARTDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTOPDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGETYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE3",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE4",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE5",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE6",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEENUMBER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "FIRSTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "LASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "PRODUCTCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "RELATIONSHIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "SEX",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATUSCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STREETADDRESS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "ZIPCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    }
+  ]
+}

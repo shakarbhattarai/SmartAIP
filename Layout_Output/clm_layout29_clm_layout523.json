@@ -1,0 +1,247 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "ALLOWED_AMOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "APPROVED_AMOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "BILLED_AMOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "CLAIM_NUMBER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "COORDINATION_BENEFITS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "COPAY_AMOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "DATE_PAID",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "DATE_RECEIVED",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "DATE_SERVICE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "DEDUCTIBLE_AMOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "DELTA_PAID",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEE_SSN",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "GRP_NBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "Gender",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "LOC",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "PATIENT_DOB",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "PATIENT_FIRST",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "PATIENT_LAST",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "PATIENT_PAYS",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "PROCEDURE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "PROVIDER_NAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "PROVIDER_TYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "RECORD_COUNT",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "SUBSCRIBER_FIRST",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "523"
+    },
+    {
+      "COLUMNNAME": "SUBSCRIBER_LAST",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "523"
+    }
+  ],
+  "changed": [
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "29",
+          "to": "523"
+        }
+      },
+      "key": [
+        "RELATIONSHIP"
+      ]
+    }
+  ],
+  "removed": [
+    {
+      "COLUMNNAME": "BIRTHDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTARTDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTOPDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGETYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE3",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE4",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE5",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE6",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEENUMBER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "FIRSTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "LASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "PRODUCTCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "SEX",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATUSCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STREETADDRESS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "ZIPCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    }
+  ]
+}

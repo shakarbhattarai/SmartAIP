@@ -1,0 +1,14 @@
+LAYOUTID,SUBLAYOUTID,COLUMNID,COLUMNNAME,DATATYPE
+1588,1,1,EnrolId,VARCHAR2
+1588,1,2,MultiValue,VARCHAR2
+1588,1,3,EffDate,date
+1588,1,4,Status,VARCHAR2
+1588,1,5,PlanEffDate,date
+1588,1,6,WaitingPeriod,date
+1588,1,7,Portable,VARCHAR2
+1588,1,8,HireDate,date
+1588,1,9,SourceClientId,VARCHAR2
+1588,1,10,GroupId,VARCHAR2
+1588,1,11,LookBackPeriod,date
+1588,1,12,TermDate,date
+1588,1,13,DownloadDate,date

@@ -1,452 +1,586 @@
 {
   "_index": [
-    "FieldName"
-  ], 
+    "COLUMNNAME"
+  ],
   "added": [
     {
-      "DataType": "DATE", 
-      "FieldName": "Date_Paid_Check_Date", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "DATE", 
-      "FieldName": "Date_of_First_Service", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "DATE", 
-      "FieldName": "Date_of_Last_Service", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "DATE", 
-      "FieldName": "LastUpdateDate", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "NUMBER", 
-      "FieldName": "Allowed_Amount", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "NUMBER", 
-      "FieldName": "Capitation_Type_Code", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "NUMBER", 
-      "FieldName": "Coinsurance", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "NUMBER", 
-      "FieldName": "Copay_Percentage", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "NUMBER", 
-      "FieldName": "Copayment", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "NUMBER", 
-      "FieldName": "Deductible", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "NUMBER", 
-      "FieldName": "Discount", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "NUMBER", 
-      "FieldName": "Net_Payment", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "NUMBER", 
-      "FieldName": "Patient_Payable_Amount", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "NUMBER", 
-      "FieldName": "Submitted_Charge", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "NUMBER", 
-      "FieldName": "Third_Party_Amount", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "NUMBER", 
-      "FieldName": "Units_of_Service", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Capitated_Service_Indicator", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Claim_Line_Status", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Claim_Status", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Denial_Code", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Denial_Code_Description", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Diagnosis_Code_Principal", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "End_Process_Date", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Family_ID_SSN", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Filler", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "GroupNumber", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Last_Character", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Line_Number", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Network_Paid_Indicator", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Network_Provider_Indicator", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Ordering_Provider_ID", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "PCP_Responsibility_Indicator", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Patient_Gender", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Patient_Relationship", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Place_of_Service", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Proceduce_Type", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Procedure_Code", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Procedure_Code_Modifier", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Provider_ID", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Provider_Type_Code_Claim", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Provider_Zip_Code", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Record_Count", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Start_Process_Date", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Total_Net_Payment", 
-      "\ufeffID": "154"
+      "COLUMNNAME": "BRND_NM",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "812"
     }
-  ], 
+  ],
   "changed": [
     {
       "fields": {
-        "DataType": {
-          "from": "date", 
-          "to": "DATE"
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
         }
-      }, 
+      },
       "key": [
-        "Patient_Date_of_Birth"
+        "ACCT_NUM"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "ACT_MAC_DIF_AMT"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "ADJCD"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "AWP_INGRD_CST_AMT"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "BRNCH_CD"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "CLM_NUM"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "CLNT_NUM"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "COINSAMT"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "COPAY_AMT"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "CUST_NUM"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "DAYS_SUP_QTY"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "DEDCT_APPLD_AMT"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "DISP_FEE_AMT"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "DISP_IND"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "EMP_ID"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "FILL_DT"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "FIRST_NAME_OF_INSURED"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "FRMLRY_IND"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "GENRC_THRPDC_CLSS"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "HMO_CD"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "INGRD_CST_AMT"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "LABEL_NM"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "LAST_NAME_OF_INSURED"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "MAIL"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "MANUFCTR_NM"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "MBR_NO"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "NUMBER"
+        },
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "MEMBER_AGE"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "METRC_QTY"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "NABP_PHARMCY_NUM"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "NDC_GENRC_IND"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "NDC_NUM"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "NDC_PRODT_IND"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "NT_ID"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "OUT_OF_NETWRK_IND"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "PAID_DT"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "PATDOB"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "PLAN_OF_BEN"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "PREAUTH_SFX"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "PRESC_PHYSN_ID"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "PRICE_SOURCE"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "REC_SRC_FLG"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "RELTN_CD"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "RX_ACCT_NUM"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "RX_REFLL_NO"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "SALES_TAX_AMT"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "SEX_CD"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "STE_CD"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "SUB_ACCT_NUM"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "TOT_PD_AMT"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "UNC_AMT"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "20",
+          "to": "812"
+        }
+      },
+      "key": [
+        "ZIP_CODE"
       ]
     }
-  ], 
+  ],
   "removed": [
     {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Charge_Status", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Diagnosis_Code_Scheme", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Employee_SSN", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Employee_Status", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Filler1", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Filler2", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Filler3", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Filler4", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Filler5", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Filler6", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Filler7", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Filler8", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Filler9", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Network_Indicator", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Number_of_Services", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Original_Claim_ID", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Patient_First_Name", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Patient_Gender_", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Patient_Last_Name", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Patient_Relationship_Code", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Patient_SSN", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Primary_Diagnosis", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Primary_Procedure_Code_CPT", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Provider_NPI", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Provider_Tax_ID", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Secondary_Diagnosis", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Tertiary_Diagnosis", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "VARCHAR2", 
-      "FieldName": "Types_of_Service", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "date", 
-      "FieldName": "Claim_Payment_Date", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "date", 
-      "FieldName": "Date_of_Service_From", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "date", 
-      "FieldName": "Date_of_Service_To", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "date", 
-      "FieldName": "Employee_Date_of_Birth", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "number", 
-      "FieldName": "Allowable_Charges", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "number", 
-      "FieldName": "Billed_Submitted_Charges", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "number", 
-      "FieldName": "COB_Amount", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "number", 
-      "FieldName": "Coinsurance_Amount", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "number", 
-      "FieldName": "Copay_Amount", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "number", 
-      "FieldName": "Deductible_Amount", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "number", 
-      "FieldName": "Denied_Amount", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "number", 
-      "FieldName": "Discount_Amount", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "number", 
-      "FieldName": "Not_Allowed_Charges", 
-      "\ufeffID": "154"
-    }, 
-    {
-      "DataType": "number", 
-      "FieldName": "Paid_Amount", 
-      "\ufeffID": "154"
+      "COLUMNNAME": "HRA_AMOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "20"
     }
   ]
 }

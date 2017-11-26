@@ -1,0 +1,310 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "Adj_Flag",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Bill_Type_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Billed_Amount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Case_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Caseid_Desc",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Claim_Line_NBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Claim_Number",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Claim_Type",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "CoInsurance_Amount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Copay_Amount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Date_Processed",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Date_Received",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Deductible_Amount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Diagnosis_Code1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Diagnosis_Code2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Mbr_gdr_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Med_Dep_Seq_Code",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Med_Dep_Seq_Desc",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Medsub_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Mem_DOB",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Network_Flag",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Not_Allowed_Amount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Paid_Amount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Payer_Desc",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Payer_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Place_Of_Service_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Plan_Eligible_Amount",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Plantype_Code",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Plantype_Desc",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Procedure",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Provider_Name",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Provider_TIN",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Revenue_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Service_End_Date",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Service_Start_Date",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Spc_Code",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Spc_Desc",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Svc_Unit_Qty",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "620"
+    },
+    {
+      "COLUMNNAME": "Unit_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "620"
+    }
+  ],
+  "changed": [],
+  "removed": [
+    {
+      "COLUMNNAME": "BIRTHDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTARTDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTOPDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGETYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE3",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE4",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE5",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE6",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEENUMBER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "FIRSTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "LASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "PRODUCTCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "RELATIONSHIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "SEX",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATUSCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STREETADDRESS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "ZIPCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    }
+  ]
+}

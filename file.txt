@@ -1,0 +1,1 @@
+{"filename": ["rx_layout1002.csv", "rx_layout1368.csv", "rx_layout2922.csv", "rx_layout868.csv", "rx_layout2356.csv"], "similarity": [1.0, 0.9876265664626522, 0.9760038108169917, 0.9593012809327419, 0.9549534548457854]}

@@ -8,16 +8,21 @@
 The the patch format.
 """
 
+from __future__ import unicode_literals
 import copy
 import itertools
 import json
 import sys
-
+import numpy as np
 import jsonschema
-
+import re
+import wordninja
 from . import error
 from . import records
-
+from CSVDiff import testForRule1
+import textacy
+import spacy
+import en_core_web_sm
 SCHEMA = {
     '$schema': 'http://json-schema.org/draft-04/schema#',
     'title': 'csvdiff',
@@ -74,12 +79,11 @@ SCHEMA = {
     },
     'required': ['_index', 'added', 'changed', 'removed'],
 }
-
-
+nlp = en_core_web_sm.load()
+weightList=[]
 def is_empty(diff):
     "Are there any actual differences encoded in the delta?"
     return not any([diff['added'], diff['changed'], diff['removed']])
-
 
 def is_valid(diff):
     """
@@ -202,7 +206,8 @@ def create(from_records, to_records, index_columns, ignore_columns=None):
     """
     from_indexed = records.index(from_records, index_columns)
     to_indexed = records.index(to_records, index_columns)
-
+    if abs(from_records.reader.line_num - to_records.reader.line_num) > 20:
+        return False
     if ignore_columns is not None:
         from_indexed = records.filter_ignored(from_indexed, ignore_columns)
         to_indexed = records.filter_ignored(to_indexed, ignore_columns)
@@ -226,10 +231,48 @@ def create_indexed(from_indexed, to_indexed, index_columns):
 def _compare_keys(from_recs, to_recs):
     from_keys = set(from_recs)
     to_keys = set(to_recs)
+    removed = Difference(from_keys, to_keys)
     removed = from_keys.difference(to_keys)
+
     shared = from_keys.intersection(to_keys)
     added = to_keys.difference(from_keys)
     return removed, added, shared
+
+def Difference(set1,set2):
+    return set(
+        k for k in set1
+            if similarity(set2,k[0])
+    )
+def similarity(set,eachword):
+     similarity=[]
+     if re.match(r'Filler(.*?)', eachword):
+         return 0
+     for word in list(set):
+         if re.match(r'FILLER(.*?)', word[0]):
+            similarity.append((0,0))
+            continue
+         if(eachword.lower() == word[0].lower()):
+            similarity.append((1.0,word[0],"equal"))
+            break
+        # doc1 = nlp(' '.join(wordninja.split(word[0].lower().decode('utf8'))))
+         doc1 = wordninja.split(word[0].lower())
+        # doc2 = nlp(' '.join(wordninja.split(eachword.lower().decode('utf8'))))
+         doc2 = wordninja.split(eachword.lower())
+
+
+        # similarity.append(get_similarity(doc1, doc2))
+         partialSimilarity, matchBy= get_similarity(doc1, doc2)
+         similarity.append((partialSimilarity, word[0],matchBy))
+         if partialSimilarity == 1.0:
+             break
+     from operator import itemgetter
+     #print(similarity)
+     weight = max(similarity, key=itemgetter(0))
+     #print(eachword, weight)
+     weightList.append(weight[0])
+     # if max(similarity)>0.5:
+     #    return True
+     # return False
 
 
 def _compare_rows(from_recs, to_recs, keys):
@@ -238,6 +281,22 @@ def _compare_rows(from_recs, to_recs, keys):
         k for k in keys
         if sorted(from_recs[k].items()) != sorted(to_recs[k].items())
     )
+
+
+def get_similarity(doc1, doc2):
+    isFoundInRule, standard1, standard2  = testForRule1.checkForRule(doc1, doc2)
+    #print(standard1,standard2)
+    if None in standard1:
+        standard1=doc1
+    if None in standard2:
+        standard2=doc2
+    if isFoundInRule:
+        return 1.0, "rule"
+    temp = textacy.similarity.jaccard(standard1, standard2)
+    if (temp > 0.7):
+        return temp, "jaccard"
+    word2VecSimilarity = textacy.similarity.word2vec(nlp(' '.join(standard1)), nlp(' '.join(standard2)))
+    return word2VecSimilarity*.5**word2VecSimilarity, "word2vec"
 
 
 def _assemble(removed, added, changed, from_recs, to_recs, index_columns):

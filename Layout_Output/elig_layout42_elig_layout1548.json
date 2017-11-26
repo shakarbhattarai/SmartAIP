@@ -1,0 +1,325 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "ClassID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "ClassID_Description",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "ClassPlanID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "ClassPlan_Description",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "EmpCoverage",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "EmployeeCK",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "GroupCK",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "GroupID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "GroupName",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemAddr1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemAddr2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemAddr3",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemAge",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemBDay",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemCity",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemCounty",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemEffDate",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemFName",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemGender",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemLName",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemPhone",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemProdAbbr",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemProductID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemProductID_Description",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemRel",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemSSN",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemState",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemTermDate",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemZip",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "MemberCK",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "SubGroupID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    },
+    {
+      "COLUMNNAME": "SubGroup_Description",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1548"
+    }
+  ],
+  "changed": [],
+  "removed": [
+    {
+      "COLUMNNAME": "ADDR1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "ADDR2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "CITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "CMSTATUS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "COVTYPEDESC",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "COVTYPEID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "DATABEGINDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "DATAENDDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "DOB",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "EFFDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEECOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "ENRID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "GENDER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "HOMEPHONE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "LOCATIONCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMBERCOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMFIRSTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMLASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PARTTIMEFULLTIMEINDICATOR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PCPID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PCPNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PLANNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PLANTYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "RECORDCOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "RELFLAG",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "STATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "STATUS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "TERMDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "WORKPHONE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "ZIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    }
+  ]
+}

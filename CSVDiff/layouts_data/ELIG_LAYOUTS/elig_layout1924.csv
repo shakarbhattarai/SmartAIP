@@ -1,0 +1,16 @@
+LAYOUTID,SUBLAYOUTID,COLUMNID,COLUMNNAME,DATATYPE
+1924,1,1,Scrambled_Subscriber_ID,VARCHAR2
+1924,1,2,Scrambled_Member_ID,VARCHAR2
+1924,1,3,Contract_Type_Description,VARCHAR2
+1924,1,4,Member_Rel_Description,VARCHAR2
+1924,1,5,Member_Gender_Code,VARCHAR2
+1924,1,6,Member_Birth_Year,NUMBER
+1924,1,7,Member_Zip,NUMBER
+1924,1,8,Group_Number,NUMBER
+1924,1,9,Subgroup_Number,NUMBER
+1924,1,10,Line_of_Business_Description,VARCHAR2
+1924,1,11,Plan_ID,VARCHAR2
+1924,1,12,Product_ID,VARCHAR2
+1924,1,13,Class_ID,VARCHAR2
+1924,1,14,Coverage_Begin_Date,DATE
+1924,1,15,Coverage_End_Date,DATE

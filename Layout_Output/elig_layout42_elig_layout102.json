@@ -1,0 +1,337 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "DRUG",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "EFFDT",
+      "DATATYPE": "date",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "EMPLOYER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "EMPNO",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "FIRST_NAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "IDSNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "LANGUAGE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "LAST_NAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "LOCAL",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "MEMBER_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "PCPFIRST",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "PCPLAST",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "PCPNO",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "PCP_ID_NPI",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "PHONE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "PLAN",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "PRIMINS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "PRODUCT",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "RISK",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "RUNDT",
+      "DATATYPE": "date",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "SUB",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "SUBFIRST",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "SUBID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "SUBLAST",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "102"
+    },
+    {
+      "COLUMNNAME": "TERMDT",
+      "DATATYPE": "date",
+      "LAYOUTID": "102"
+    }
+  ],
+  "changed": [
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "42",
+          "to": "102"
+        }
+      },
+      "key": [
+        "ADDR1"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "42",
+          "to": "102"
+        }
+      },
+      "key": [
+        "ADDR2"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "42",
+          "to": "102"
+        }
+      },
+      "key": [
+        "CITY"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "DATE",
+          "to": "date"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "102"
+        }
+      },
+      "key": [
+        "DOB"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "42",
+          "to": "102"
+        }
+      },
+      "key": [
+        "GENDER"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "42",
+          "to": "102"
+        }
+      },
+      "key": [
+        "STATE"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "42",
+          "to": "102"
+        }
+      },
+      "key": [
+        "ZIP"
+      ]
+    }
+  ],
+  "removed": [
+    {
+      "COLUMNNAME": "CMSTATUS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "COVTYPEDESC",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "COVTYPEID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "DATABEGINDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "DATAENDDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "EFFDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEECOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "ENRID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "HOMEPHONE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "LOCATIONCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMBERCOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMFIRSTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMLASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PARTTIMEFULLTIMEINDICATOR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PCPID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PCPNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PLANNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PLANTYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "RECORDCOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "RELFLAG",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "STATUS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "TERMDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "WORKPHONE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    }
+  ]
+}

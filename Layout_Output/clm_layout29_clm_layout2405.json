@@ -1,0 +1,295 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "CERTHLDR_NUM",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "CERTHLDR_TY_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "CHK_NET_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "CHK_NUM",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "CHK_TY_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "CITY_NM",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "CLM_ID",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "CLM_MONTRY_TRAN_PAYEE_EXTRT_ID",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "DAYS_COVRD_NUM",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "Data_record_count",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "EMPLR_EMP_NUM",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "Extract_date",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "FICA_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "FIT_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "FRST_LN_ADDR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "File_Type_Code",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "INVC_NUM",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "MONTRY_DEDUCT_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "MONTRY_TY_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "OVRPAY_DED_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "PAYEE_NM",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "PAYEE_SEQ_NUM",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "PAYEE_TY_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "PER_END_DT",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "PER_START_DT",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "PMT_GROSS_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "REC_TY_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "Record_Type_Code",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "SEC_LN_ADDR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "SIT_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "STATE_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "SUTA_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "TAX_NUM",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "TRANS_DT",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "TRANS_SEQ_NUM",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "2405"
+    },
+    {
+      "COLUMNNAME": "ZIP_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2405"
+    }
+  ],
+  "changed": [],
+  "removed": [
+    {
+      "COLUMNNAME": "BIRTHDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTARTDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTOPDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGETYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE3",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE4",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE5",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE6",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEENUMBER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "FIRSTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "LASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "PRODUCTCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "RELATIONSHIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "SEX",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATUSCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STREETADDRESS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "ZIPCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    }
+  ]
+}

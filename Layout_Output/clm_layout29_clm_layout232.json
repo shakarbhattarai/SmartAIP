@@ -1,0 +1,310 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "Allowable_Charges",
+      "DATATYPE": "number",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Billed_Submitted_Charges",
+      "DATATYPE": "number",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "COB_Amount",
+      "DATATYPE": "number",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Charge_Status",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Claim_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Claim_Payment_Date",
+      "DATATYPE": "date",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Claim_Reason_Code",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Claim_Type",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Coinsurance_Amount",
+      "DATATYPE": "number",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Copay_Amount",
+      "DATATYPE": "number",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Date_of_Service_From",
+      "DATATYPE": "date",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Date_of_Service_To",
+      "DATATYPE": "date",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Deductible_Amount",
+      "DATATYPE": "number",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Denied_Amount",
+      "DATATYPE": "number",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Diagnosis_Code_Scheme",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Discount_Amount",
+      "DATATYPE": "number",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Employee_Date_of_Birth",
+      "DATATYPE": "date",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Employee_SSN",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Employee_Status",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Network_Indicator",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Not_Allowed_Charges",
+      "DATATYPE": "number",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Number_of_Services",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Original_Claim_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Paid_Amount",
+      "DATATYPE": "number",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Patient_Date_of_Birth",
+      "DATATYPE": "date",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Patient_First_Name",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Patient_Gender_",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Patient_Last_Name",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Patient_Relationship_Code",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Patient_SSN",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Primary_Diagnosis",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Primary_Procedure_Code_CPT",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Provider_NPI",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Provider_Name",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Provider_Tax_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Record_Type",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Secondary_Diagnosis",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Tertiary_Diagnosis",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    },
+    {
+      "COLUMNNAME": "Types_of_Service",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "232"
+    }
+  ],
+  "changed": [],
+  "removed": [
+    {
+      "COLUMNNAME": "BIRTHDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTARTDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTOPDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGETYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE3",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE4",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE5",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE6",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEENUMBER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "FIRSTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "LASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "PRODUCTCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "RELATIONSHIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "SEX",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATUSCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STREETADDRESS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "ZIPCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    }
+  ]
+}

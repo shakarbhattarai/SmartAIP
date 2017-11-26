@@ -1,0 +1,12 @@
+LAYOUTID,SUBLAYOUTID,COLUMNID,COLUMNNAME,DATATYPE
+354,1,1,account_nbr,VARCHAR2
+354,1,2,branch,VARCHAR2
+354,1,3,ben_plan,VARCHAR2
+354,1,4,emp_id,VARCHAR2
+354,1,5,member_nbr,VARCHAR2
+354,1,6,claimantrelation,VARCHAR2
+354,1,7,mbr_mth_yr_mth,VARCHAR2
+354,1,8,sex_cd,VARCHAR2
+354,1,9,eff_dt,date
+354,1,10,cancel_dt,date
+354,1,11,age_rng,VARCHAR2

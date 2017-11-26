@@ -1,0 +1,465 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "AHFSCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "AHFSDESCRIPTION",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "CLASSDESCRIPTION",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "CLASSID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "COINSURANCEAMOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "COMPOUNDCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "COPAYAMOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "DAWCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "DAYSUPPLY",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "DISPENSEDQUANTITY",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "DRUGSTRENGTH",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "DRUGTYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "FAMILYID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "FILLEDDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "FORMULARYFLAG",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "GNCCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "GNCDESCRIPTION",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "MAILORDERDELIVERY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "MEMBERID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "NDCDESCRIPTION",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "NDCNUMBER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "NEWREFILLCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PAIDAMOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PAIDDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PATIENTDOB",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PATIENTFIRSTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PATIENTGENDER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PATIENTLASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PATIENTRELATIONSHIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PHARMACYCITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PHARMACYID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PHARMACYNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PHARMACYSTATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PHARMACYZIPCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "POLICYPLANCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PRESCIBERNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PRESCRIBERCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PRESCRIBERNPI",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "PRESCRIPTIONNUMBER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "SUBGROUPID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "4058"
+    },
+    {
+      "COLUMNNAME": "WRITTENDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "4058"
+    }
+  ],
+  "changed": [],
+  "removed": [
+    {
+      "COLUMNNAME": "BCMBRNBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "BCTOS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "CAPIND",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "CLAIMNBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "CLMCLS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "CLMSYSID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "COPAYAMT",
+      "DATATYPE": "Number",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "CURSUBID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "DAW",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "DAYSUPLY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "DEACLASSS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "DEDUCT",
+      "DATATYPE": "Number",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "DRUGIND",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "EBYA",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "EMPREL",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "FIRSTNAM",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "FORMULRY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "GENRCID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "HCFACOCD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "HEADCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "LASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "METRCQTY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "NDC",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "NDCDES",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "NDCSTR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "NETPAY",
+      "DATATYPE": "Number",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "NTWKPROD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "ORDNPI",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "ORDRPHYS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PAID",
+      "DATATYPE": "Number",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PATDOB",
+      "DATATYPE": "Date",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PCPNBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PCPNPI",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PCPTNO",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PDDATE",
+      "DATATYPE": "Date",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PHARM_NPI",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "POS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PROCCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PROVID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "PRVTYPECD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "RATESTRU",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "REFCIRC",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "REFILL",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "RXORIGCD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "SERVCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "SEXCD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "SUBMITCH",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "SVCDT",
+      "DATATYPE": "Date",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "THRPCLS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    },
+    {
+      "COLUMNNAME": "THRPGRP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "100"
+    }
+  ]
+}

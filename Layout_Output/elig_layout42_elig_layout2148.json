@@ -1,0 +1,322 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "CO_BRCD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "CO_CODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "CO_NAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "CRIT",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "Cobra_Eligibility_End_Date",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "Date_COBRA_Done",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "Date_COBRA_Done_UP",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "END_DATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "EVENT_TYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "INS_NAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "MaxOfDESC",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "PLAN_CODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "QUAL_ADD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "QUAL_ADD2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "QUAL_CITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "QUAL_DOB",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "QUAL_EV_DT",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "QUAL_FIRST",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "QUAL_LAST",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "QUAL_MID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "QUAL_NO",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "QUAL_SEX",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "QUAL_SS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "QUAL_SS_UP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "QUAL_STATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "QUAL_ZIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "Q_STATUS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "Q_Stat_Desc",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "START_DATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "2148"
+    },
+    {
+      "COLUMNNAME": "Sponsor_Code",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "2148"
+    }
+  ],
+  "changed": [
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2148"
+        }
+      },
+      "key": [
+        "STATUS"
+      ]
+    }
+  ],
+  "removed": [
+    {
+      "COLUMNNAME": "ADDR1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "ADDR2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "CITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "CMSTATUS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "COVTYPEDESC",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "COVTYPEID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "DATABEGINDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "DATAENDDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "DOB",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "EFFDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEECOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "ENRID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "GENDER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "HOMEPHONE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "LOCATIONCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMBERCOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMFIRSTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMLASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PARTTIMEFULLTIMEINDICATOR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PCPID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PCPNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PLANNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PLANTYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "RECORDCOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "RELFLAG",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "STATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "TERMDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "WORKPHONE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "ZIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    }
+  ]
+}

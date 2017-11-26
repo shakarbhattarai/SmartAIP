@@ -1,0 +1,13 @@
+2289,1,1,acct_number,VARCHAR2,5
+2289,1,2,group_num,VARCHAR2,8
+2289,1,3,plan,VARCHAR2,7
+2289,1,4,emp_id,VARCHAR2,9
+2289,1,5,memb_id,VARCHAR2,2
+2289,1,6,memb_rel,VARCHAR2,3
+2289,1,7,memb_birth_date,DATE,10
+2289,1,8,memb_gender,VARCHAR2,1
+2289,1,9,cvrg_level,VARCHAR2,14
+2289,1,10,enrl_date,DATE,10
+2289,1,11,term_date,DATE,10
+2289,1,12,mem_last_name,VARCHAR2,24
+2289,1,13,mem_first_name,VARCHAR2,15

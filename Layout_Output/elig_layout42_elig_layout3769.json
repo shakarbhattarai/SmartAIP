@@ -1,0 +1,380 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "AGE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "COUNTY_CODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "CURR_REASON_FOR_ENTITLEMENT",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "DATE_OF_DEATH",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "DESY_SORT_KEY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "ENTITLEMENT_BUY_IN_IND1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "ENTITLEMENT_BUY_IN_IND10",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "ENTITLEMENT_BUY_IN_IND11",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "ENTITLEMENT_BUY_IN_IND12",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "ENTITLEMENT_BUY_IN_IND2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "ENTITLEMENT_BUY_IN_IND3",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "ENTITLEMENT_BUY_IN_IND4",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "ENTITLEMENT_BUY_IN_IND5",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "ENTITLEMENT_BUY_IN_IND6",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "ENTITLEMENT_BUY_IN_IND7",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "ENTITLEMENT_BUY_IN_IND8",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "ENTITLEMENT_BUY_IN_IND9",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "ESRD_INDICATOR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "HI_COVERAGE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "HMO_COVERAGE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "HMO_INDICATOR1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "HMO_INDICATOR10",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "HMO_INDICATOR11",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "HMO_INDICATOR12",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "HMO_INDICATOR2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "HMO_INDICATOR3",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "HMO_INDICATOR4",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "HMO_INDICATOR5",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "HMO_INDICATOR6",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "HMO_INDICATOR7",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "HMO_INDICATOR8",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "HMO_INDICATOR9",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "MEDICARE_STATUS_CODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "ORIG_REASON_FOR_ENTITLEMENT",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "PART_A_TERMINATION_CODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "PART_B_TERMINATION_CODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "RACE_CODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "REFERENCE_YEAR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "SEX_CODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "SMI_COVERAGE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "STATE_BUY_IN_COVERAGE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "STATE_CODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    },
+    {
+      "COLUMNNAME": "VALID_DATE_OF_DEATH_SWITCH",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3769"
+    }
+  ],
+  "changed": [],
+  "removed": [
+    {
+      "COLUMNNAME": "ADDR1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "ADDR2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "CITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "CMSTATUS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "COVTYPEDESC",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "COVTYPEID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "DATABEGINDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "DATAENDDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "DOB",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "EFFDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEECOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "ENRID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "GENDER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "HOMEPHONE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "LOCATIONCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMBERCOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMFIRSTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMLASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PARTTIMEFULLTIMEINDICATOR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PCPID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PCPNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PLANNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PLANTYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "RECORDCOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "RELFLAG",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "STATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "STATUS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "TERMDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "WORKPHONE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "ZIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    }
+  ]
+}

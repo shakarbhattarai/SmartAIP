@@ -1,0 +1,13 @@
+1588,1,1,EnrolId,VARCHAR2,19
+1588,1,2,MultiValue,VARCHAR2,11
+1588,1,3,EffDate,date,10
+1588,1,4,Status,VARCHAR2,6
+1588,1,5,PlanEffDate,date,10
+1588,1,6,WaitingPeriod,date,10
+1588,1,7,Portable,VARCHAR2,15
+1588,1,8,HireDate,date,10
+1588,1,9,SourceClientId,VARCHAR2,15
+1588,1,10,GroupId,VARCHAR2,20
+1588,1,11,LookBackPeriod,date,10
+1588,1,12,TermDate,date,10
+1588,1,13,DownloadDate,date,10

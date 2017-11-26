@@ -1,0 +1,80 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "GROUP_1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "65"
+    },
+    {
+      "COLUMNNAME": "SUBGROUP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "65"
+    },
+    {
+      "COLUMNNAME": "SUB_MRN",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "65"
+    }
+  ],
+  "changed": [
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "64",
+          "to": "65"
+        }
+      },
+      "key": [
+        "DAYS_SUPPLY"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "64",
+          "to": "65"
+        }
+      },
+      "key": [
+        "INSUREDID"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "64",
+          "to": "65"
+        }
+      },
+      "key": [
+        "NDC"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "64",
+          "to": "65"
+        }
+      },
+      "key": [
+        "REGION"
+      ]
+    },
+    {
+      "fields": {
+        "LAYOUTID": {
+          "from": "64",
+          "to": "65"
+        }
+      },
+      "key": [
+        "SERVDT"
+      ]
+    }
+  ],
+  "removed": []
+}

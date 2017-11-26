@@ -1,0 +1,200 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "APRV_IND_CLMLI",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "CLNC_APRVL_IND",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "DW_CLM_KEY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "ELIGIBLE_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "ESTMT_PD_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "POT_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "PRCDR_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "PRIMY_DIAG_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "PROV_CHGS",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "PROV_TYP_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "REVENUE_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "SPEC_PRCDR_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "SVC_LN_NBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "SVC_STRT_DT",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "SVC_TYP_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "SVC_UNIT_CNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1480"
+    },
+    {
+      "COLUMNNAME": "TOS_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1480"
+    }
+  ],
+  "changed": [],
+  "removed": [
+    {
+      "COLUMNNAME": "BIRTHDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTARTDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTOPDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGETYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE3",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE4",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE5",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE6",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEENUMBER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "FIRSTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "LASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "PRODUCTCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "RELATIONSHIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "SEX",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATUSCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STREETADDRESS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "ZIPCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    }
+  ]
+}

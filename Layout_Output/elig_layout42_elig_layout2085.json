@@ -1,0 +1,416 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "ALTMEMID",
+      "DATATYPE": "varchar2",
+      "LAYOUTID": "2085"
+    },
+    {
+      "COLUMNNAME": "MONTHS",
+      "DATATYPE": "varchar2",
+      "LAYOUTID": "2085"
+    }
+  ],
+  "changed": [
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "ADDR1"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "ADDR2"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "CITY"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "CMSTATUS"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "COVTYPEDESC"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "COVTYPEID"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "DATE",
+          "to": "date"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "DOB"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "DATE",
+          "to": "date"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "EFFDATE"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "ENRID"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "GENDER"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "HOMEPHONE"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "MEMFIRSTNAME"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "MEMID"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "MEMLASTNAME"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "PCPID"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "PCPNAME"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "PLANNAME"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "PLANTYPE"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "RELFLAG"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "STATE"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "STATUS"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "DATE",
+          "to": "date"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "TERMDATE"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "WORKPHONE"
+      ]
+    },
+    {
+      "fields": {
+        "DATATYPE": {
+          "from": "VARCHAR2",
+          "to": "varchar2"
+        },
+        "LAYOUTID": {
+          "from": "42",
+          "to": "2085"
+        }
+      },
+      "key": [
+        "ZIP"
+      ]
+    }
+  ],
+  "removed": [
+    {
+      "COLUMNNAME": "DATABEGINDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "DATAENDDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEECOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "LOCATIONCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "MEMBERCOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "PARTTIMEFULLTIMEINDICATOR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "42"
+    },
+    {
+      "COLUMNNAME": "RECORDCOUNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "42"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "BENE_EQTBL_BIC_HICN_NUM",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "BENE_HIC_NUM",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "CLM_FROM_DT",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "CLM_LINE_CVRD_PD_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "CLM_LINE_FROM_DT",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "CLM_LINE_HCPCS_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "CLM_LINE_INSTNL_REV_CTR_DT",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "CLM_LINE_NUM",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "CLM_LINE_PROD_REV_CTR_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "CLM_LINE_SRVC_UNIT_QTY",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "CLM_LINE_THRU_DT",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "CLM_THRU_DT",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "CLM_TYPE_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "CUR_CLM_UNIQ_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "HCPCS_1_MDFR_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "HCPCS_2_MDFR_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "HCPCS_3_MDFR_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "HCPCS_4_MDFR_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "HCPCS_5_MDFR_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3653"
+    },
+    {
+      "COLUMNNAME": "PRVDR_OSCAR_NUM",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "3653"
+    }
+  ],
+  "changed": [],
+  "removed": [
+    {
+      "COLUMNNAME": "BIRTHDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CITY",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTARTDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGESTOPDATE",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "COVERAGETYPE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE3",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE4",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE5",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "CUSTOMERSTRUCTURE6",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "EMPLOYEENUMBER",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "FIRSTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "LASTNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "PRODUCTCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "RELATIONSHIP",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "SEX",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STATUSCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "STREETADDRESS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    },
+    {
+      "COLUMNNAME": "ZIPCODE",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "29"
+    }
+  ]
+}

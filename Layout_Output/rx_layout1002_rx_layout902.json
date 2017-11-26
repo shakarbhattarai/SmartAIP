@@ -1,0 +1,695 @@
+{
+  "_index": [
+    "COLUMNNAME"
+  ],
+  "added": [
+    {
+      "COLUMNNAME": "Adjustment_Reason",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Adjustment_Type",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Auth_No",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Auth_Type",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Business",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Carrier",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Checkk",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Checkk_Date",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Claim",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Claim_Date",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Claim_Type",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Class",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Cob",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Cob_Ind",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Coinsurance",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Copay",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Cost_Basis",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Credit_Debit",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Cutback_Indicator",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "DEA",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "DX",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Days_Supply",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Deductible",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Deny_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Disp_Allowed",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Disp_Billed",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Disp_Paid",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Dispense_As_Written",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Dispense_Date",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Drug_Allowed",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Drug_Billed",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Drug_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Drug_Paid",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Family",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Generic_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Generic_Pay",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "GroupContractID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Groupp",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Hcfa_Indicator",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Hospital",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Insulin_Plan",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Location_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Mail_Date_Rcvd",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "MemberID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Network",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "New_Refill",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Out_Of_Network_Penalty",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Override_Pay",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Payor",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Pharmacy",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Plann",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Prescription_No",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Product",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Prov_Signature",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Provider",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Quantity",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "RX_Date",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Resubmit_Indicator",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Sales_Tax",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Status",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Suffix",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Tier_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Work_Comp_Claim_No",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "Work_Comp_DX_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "add_date",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "add_init",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "change_date",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "902"
+    },
+    {
+      "COLUMNNAME": "change_init",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "902"
+    }
+  ],
+  "changed": [],
+  "removed": [
+    {
+      "COLUMNNAME": "ACCOUNT_NBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "ADDRESS_LINE_1",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "ADDRESS_LINE_2",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "AHF_BFD_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "AHF_PAID_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "APP_TO_PER_DED_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "AWP_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "CALC_ING_COST_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "CLM_STATUS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "COMPOUND_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "CUSTOMER_NBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "DAW_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "DAYS_SUPPLY_CNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "DIR_MBR_REIM_IND",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "DISP_DT",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "EE_FIRST_NAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "EE_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "EE_LAST_NAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "EE_NTWK_SRV_AREA_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "FIRST_NAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "FORMULARY_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "FUND_CTG_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "GENERIC_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "GROUP_NBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "LABEL_NM",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "LAST_NAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "MAINT_DRUG_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "MBR_RPT_TYPE_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "MEMBER_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "NABPPROVIDERNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "NABP_NBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "NDC_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "NEW_REFILL_CNT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "OFFICE_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "OPTION_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "PAID_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "PHI_ACAS_BYPASS_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "PHM_ZIP_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "PLAN_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "PRESCBR_ID_QLFY_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "PRESCRIBER_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "PRESCRIBINGPROVIDERNAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "PRESCRIPTION_NBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "PRICE_TYPE_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "PROCESS_DT",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "PRODUCT_LN_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "PROD_DISTNCTN_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "PROF_FEE_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "PS_UNIQUE_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "RECORDSTATUS",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "RECORDTERMINATOR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "RETAIL_MOD_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "RX_CLAIM_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "RX_INTGRTN_OPT_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "RX_PRODUCT_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "SALES_TAX_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "SENSITIVITYINDICATOR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "SORT_NAME",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "SOURCE_TYPE_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "SPCLTY_CTG_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "SRC_MBR_BIRTH_DT",
+      "DATATYPE": "DATE",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "SRC_MBR_GENDER_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "SRC_RX_MEMBER_ID",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "SRV_COPAY_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "SSN_NBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "SUBGROUP_NBR",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "SUBS_ZIP_CD",
+      "DATATYPE": "VARCHAR2",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "SUB_ING_COST_AMT",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1002"
+    },
+    {
+      "COLUMNNAME": "UNTS_DISPENSED_QTY",
+      "DATATYPE": "NUMBER",
+      "LAYOUTID": "1002"
+    }
+  ]
+}
