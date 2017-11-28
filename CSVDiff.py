@@ -12,7 +12,6 @@ from __future__ import absolute_import, print_function, division,unicode_literal
 import json
 import sys
 from operator import itemgetter
-import time
 import click
 import os
 from os import listdir
@@ -23,7 +22,7 @@ from Web.matchLayout import matchLayout
 
 dir='CSVdiff/finalLayouts/RX_LAYOUTS/'
 singleFile1="rx_layout20.csv"
-singleFile2="rx_layout812.csv"
+singleFile2="rx_layout55.csv"
 
 from_records_ct=0
 to_records_ct=0
@@ -273,12 +272,12 @@ def getAccruacy(from_records_ct, to_records_ct, weightList):
     return finalWeight+numberOne+third
 
 def runAll(tocheck):
-    onlyfiles = [f for f in listdir('CSVdiff/layouts_with_allheader/small')]
+    onlyfiles = [f for f in listdir(dir)]
     maxsimilarity=[]
     for file in onlyfiles:
         filename=file.replace('.csv','.json')
-        val = _diff_files_to_stream('CSVdiff/layouts_with_allheader/small/'+tocheck,
-                                    'CSVdiff/layouts_with_allheader/small/' + file, index_columns=['COLUMNNAME'],
+        val = _diff_files_to_stream(dir+tocheck,
+                                    dir + file, index_columns=['COLUMNNAME'],
                                     ostream=open('Layout_Output/'+tocheck.replace('.csv','_')+file.replace('.csv','.json'), 'w'),
                                     ignored_columns=['SUBLAYOUTID', 'COLUMNID', 'DATETYPEDETIAL', 'FIELDLENGTH', 'SN',
                                                      'STARTPOS', 'ENDPOS', 'UPDATED_BY', 'FIELDLINENUMBER',
@@ -290,8 +289,8 @@ def runAll(tocheck):
                 myfile.write(tocheck + " " + file + " " + "0\n")
             #print(tocheck,file, 0)
         else:
-            from_records = list(records.load('CSVdiff/layouts_with_allheader/small/'+tocheck, ','))
-            to_records = list(records.load('CSVdiff/layouts_with_allheader/small/' + file, ','))
+            from_records = list(records.load(dir+tocheck, ','))
+            to_records = list(records.load(dir + file, ','))
             value=getAccruacy(len(from_records), len(to_records), patch.weightList)
             maxsimilarity.append((file,tocheck,value))
             #print(tocheck,file,value)

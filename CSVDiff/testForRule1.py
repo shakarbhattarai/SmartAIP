@@ -919,7 +919,7 @@ def claimRule(inputWord):
         return "encounter"
     if inputWord in diagClaim.classification:
         return "classification"
-    eligRule(inputWord)
+    return eligRule(inputWord)
 
 def eligRule(inputWord):
     if inputWord in elig.city:
@@ -1103,7 +1103,7 @@ def eligRule(inputWord):
     if inputWord in elig.premium:
         return "premium"
 
-    return ""
+
 
 
 def checkForRule(doc1, doc2):
@@ -1123,28 +1123,29 @@ def checkForRule(doc1, doc2):
     if match1 and match2 and (set(match1) == set(match2) or "".join(set(match1)) == "".join(set(match2))):
         return True, match1, match2
     else:
-        if(len(match1) > 1):
-            match1List = list(itertools.permutations(match1))
-        else:
-            match1List = match1
-        if(len(match2) > 1):
-            match2List = list((itertools.permutations(match2)))
-        else:
-            match2List = match2
-        for permutation1 in match1List:
-            for permutation2 in match2List:
-                out1=rule("".join(permutation1))
-                out2=rule("".join(permutation2))
-                if(out1 is not None and out2 is not None ):
-                    if match1List and match2List and out1 == out2:
-                        #print(permutation1,permutation2)
-                        #print("".join(permutation1), "".join(permutation2))
-                        return True,match1,match2
-        #print(match1List,match2List)
+        if(('dob' in match1 or 'birth' in match1 or 'patient' in match1) and ('dob' in match2 or 'birth' in match2 or 'patient' in match2)):
+            if(len(match1) > 1):
+                match1List = list(itertools.permutations(match1))
+            else:
+                match1List = match1
+            if(len(match2) > 1):
+                match2List = list((itertools.permutations(match2)))
+            else:
+                match2List = match2
+            for permutation1 in match1List:
+                for permutation2 in match2List:
+                    out1=rule("".join(permutation1))
+                    out2=rule("".join(permutation2))
+                    if(out1 is not None and out2 is not None ):
+                        if match1List and match2List and out1 == out2:
+                            #print(permutation1,permutation2)
+                            #print("".join(permutation1), "".join(permutation2))
+                            return True,match1,match2
+            #print(match1List,match2List)
         return False,match1,match2
 
-# field1="statuscode"
-# field2="date_paid"
+# field1="asdasd"
+# field2="datebirth"
 # doc1= wordninja.split(field1.lower())
 # doc2= wordninja.split(field2.lower())
 # print(doc1,doc2)

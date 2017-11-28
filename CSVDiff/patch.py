@@ -233,7 +233,6 @@ def _compare_keys(from_recs, to_recs):
     to_keys = set(to_recs)
     removed = Difference(from_keys, to_keys)
     removed = from_keys.difference(to_keys)
-
     shared = from_keys.intersection(to_keys)
     added = to_keys.difference(from_keys)
     return removed, added, shared
@@ -293,7 +292,7 @@ def get_similarity(doc1, doc2):
     if isFoundInRule:
         return 1.0, "rule"
     temp = textacy.similarity.jaccard(standard1, standard2)
-    if (temp > 0.7):
+    if (temp > 0.6):
         return temp, "jaccard"
     word2VecSimilarity = textacy.similarity.word2vec(nlp(' '.join(standard1)), nlp(' '.join(standard2)))
     return word2VecSimilarity*.5**word2VecSimilarity, "word2vec"
