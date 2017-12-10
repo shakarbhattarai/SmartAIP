@@ -8,16 +8,20 @@
 The the patch format.
 """
 
+from __future__ import unicode_literals
 import copy
 import itertools
 import json
 import sys
-
+import numpy as np
 import jsonschema
-
+import re
+import wordninja
 from . import error
 from . import records
-
+import textacy
+import spacy
+import en_core_web_sm
 SCHEMA = {
     '$schema': 'http://json-schema.org/draft-04/schema#',
     'title': 'csvdiff',
@@ -74,8 +78,7 @@ SCHEMA = {
     },
     'required': ['_index', 'added', 'changed', 'removed'],
 }
-
-
+nlp = en_core_web_sm.load()
 def is_empty(diff):
     "Are there any actual differences encoded in the delta?"
     return not any([diff['added'], diff['changed'], diff['removed']])
@@ -226,10 +229,39 @@ def create_indexed(from_indexed, to_indexed, index_columns):
 def _compare_keys(from_recs, to_recs):
     from_keys = set(from_recs)
     to_keys = set(to_recs)
+    removed = Difference(from_keys, to_keys)
     removed = from_keys.difference(to_keys)
+
     shared = from_keys.intersection(to_keys)
     added = to_keys.difference(from_keys)
     return removed, added, shared
+
+def Difference(set1,set2):
+    return set(
+        k for k in set1
+            if similarity(set2,k[0])
+    )
+def similarity(set,eachword):
+     similarity=[]
+     if re.match(r'Filler(.*?)', eachword):
+         return 0
+     for word in list(set):
+         if re.match(r'FILLER(.*?)', word[0]) or re.match(r'RECORD_(.*?)', word[0]):
+            similarity.append(0)
+            continue
+
+         doc1 = nlp(' '.join(wordninja.split(word[0].lower().decode('utf8'))))
+         doc1 = wordninja.split(word[0].lower().decode('utf8'))
+
+         doc2 = nlp(' '.join(wordninja.split(eachword.lower().decode('utf8'))))
+         doc2 = wordninja.split(eachword.lower().decode('utf8'))
+
+         similarity.append((get_similarity(doc1, doc2), word))
+
+     print eachword,max(similarity)
+     # if max(similarity)>0.5:
+     #    return True
+     # return False
 
 
 def _compare_rows(from_recs, to_recs, keys):
@@ -239,6 +271,13 @@ def _compare_rows(from_recs, to_recs, keys):
         if sorted(from_recs[k].items()) != sorted(to_recs[k].items())
     )
 
+
+def get_similarity(doc1, doc2):
+    temp = textacy.similarity.jaccard(doc1, doc2)
+    if (temp > 0.8):
+        return temp
+
+    return textacy.similarity.word2vec(nlp(' '.join(doc1)), nlp(' '.join(doc2)))
 
 def _assemble(removed, added, changed, from_recs, to_recs, index_columns):
     diff = {}
